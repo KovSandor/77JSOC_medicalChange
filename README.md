@@ -12,7 +12,8 @@ These are in line with the latest 2024-11-20 Loadout changes regarding the medic
 - Automated replacement of medical items (e.g., saline to plasma).
 - Modification of medical supply quantities: 20 Basic bandages -> 10 Basic bandages & 10 packing bandages
 
-[Demo video](https://youtu.be/ZadszQcT48A): 
+![Demo video](https://youtu.be/ZadszQcT48A): 
+[![Demo video](https://img.youtube.com/vi/ZadszQcT48A/0.jpg)](https://www.youtube.com/watch?v=ZadszQcT48A)
 
 ## Getting Started
 
