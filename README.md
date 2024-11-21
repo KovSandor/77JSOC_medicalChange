@@ -61,6 +61,7 @@ I encourage you to check the corresponding .py scripts before you run executable
 2. **Install Required modules**:
    - `pyautogui`
    - `pyperclip`
+   - `pynput`
 3. **Instead of Step 7, run one of the scripts**:
    - `automaticACE_simple.py`
    - `automaticVanilla_simple.py`
