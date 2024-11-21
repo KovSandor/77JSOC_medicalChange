@@ -72,3 +72,8 @@ Since the script does not do any changes if you run it over unrelated loadouts i
 ## Contact
 
 For assistance, please contact [Spc.] LeX.
+
+## Disclaimer
+
+This is not an official / endorsed tool from Logistics!
+It is in experimental phase and I gladly accept any constructive feedback. 
