@@ -62,3 +62,8 @@ For assistance, please contact [Spc.] LeX.
 
 This is not an official / endorsed tool from Logistics!
 It is in an experimental stage and I welcome any constructive feedback. 
+
+### Known bugs
+
+* Vanilla Arsenal does not import insignias from clipboard. This is a bug which only BI can fix, [ticket](https://feedback.bistudio.com/T186642) is already submitted.
+* Script can become unstable for many iterations so the waiting timers are high. That means a slow rate of loadout modifying: about 8 minutes for the first 25 loadouts in Vanilla Arsenal. You can adjust this if you run the scripts yourself.

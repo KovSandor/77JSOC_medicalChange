@@ -63,7 +63,7 @@ def get_user_inputs():
     print("\n" + "-"*50 + "\n")
 
     print("Failsafe: BACKSPACE")
-    print("You have 10 seconds to switch to Arma3 Arsenal screen.")
+    print("You have 25 seconds to switch to Arma3 Arsenal screen.")
     
 get_user_inputs()
 
@@ -73,8 +73,8 @@ position_Export = (1250, 1055)
 position_Import = (1450, 1055)
 position_Save = (850, 1055)
 
-# Wait for 5 seconds to switch to Arma3 Arsenal screen
-time.sleep(10)
+# Wait for 25 seconds to switch to Arma3 Arsenal screen
+time.sleep(25)
 
 # Loop through the specified range of loadouts
 for i in range(0, 300):
@@ -84,13 +84,13 @@ for i in range(0, 300):
 
     # Click on Load
     pyautogui.click(position_Load)
-    time.sleep(0.7)
+    time.sleep(1)
 
     # Press Down arrow 'i' times
     for _ in range(i):
         keyboard.press(Key.down)
         keyboard.release(Key.down)
-        time.sleep(0.3)
+        time.sleep(0.5)
         if stop_script:
             print("Script stopped by user.")
             break
@@ -100,11 +100,11 @@ for i in range(0, 300):
     # Press Enter to load
     keyboard.press(Key.enter)
     keyboard.release(Key.enter)
-    time.sleep(0.3)
+    time.sleep(1.5)
 
     # Click on Export
     pyautogui.click(position_Export)
-    time.sleep(0.7)
+    time.sleep(1.5)
 
     # Modify the clipboard content
     current = pyperclip.paste()
@@ -125,22 +125,22 @@ for i in range(0, 300):
     # If you don't keep the 20 basic bandages in the same container... bad luck for you
 
     pyperclip.copy(modified)
-    time.sleep(0.5)
+    time.sleep(1.5)
 
     # Click on Import
     pyautogui.click(position_Import)
-    time.sleep(0.7)
+    time.sleep(1.5)
 
     # Click on Save
     pyautogui.click(position_Save)
-    time.sleep(0.7)
+    time.sleep(1.5)
 
     # Press Down arrow 'i + 2' times
     # When saving, the second press selects the 1st row
     for _ in range(i + 2):
         keyboard.press(Key.down)
         keyboard.release(Key.down)
-        time.sleep(0.3)
+        time.sleep(0.5)
         if stop_script:
             print("Script stopped by user.")
             break
@@ -150,7 +150,7 @@ for i in range(0, 300):
     # Press Enter to save
     keyboard.press(Key.enter)
     keyboard.release(Key.enter)
-    time.sleep(0.3)
+    time.sleep(1.5)
 
 print("\n" + "-"*50 + "\n")
 print("Script has terminated.")
