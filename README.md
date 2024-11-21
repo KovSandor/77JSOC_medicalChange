@@ -1,4 +1,4 @@
-# 77th JSOC 2024 November Medical change
+# 77th JSOC Medical Loadout Updater
 
 This project automates the modification of player loadouts in the game *Arma 3*. 
 
