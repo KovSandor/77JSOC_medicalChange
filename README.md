@@ -52,7 +52,7 @@ After downloading the executables follow these instructions:
 12. **Success**! You should have plasma instead of saline and 10x Packing bandage and 10x Basic bandage instead of 20x Basic bandage.
 13. Manually change your medic loadouts to add the new equipment and remove extra Packing bandages. 
 
-I encourage you to check the corresponding .py scripts before running executables on your system, and if you can, I encourage you to run the python scripts, details are in [How to run the scripts](./scriptREADME.md).
+I encourage you to check the corresponding `.py` scripts before running executables on your system, and if you can, I encourage you to run the python scripts, details are in [How to run the scripts](./scriptREADME.md).
 
 ## Contact
 
