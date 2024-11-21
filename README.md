@@ -76,4 +76,4 @@ For assistance, please contact [Spc.] LeX.
 ## Disclaimer
 
 This is not an official / endorsed tool from Logistics!
-It is in experimental phase and I gladly accept any constructive feedback. 
+It is in an experimental phase and I welcome any constructive feedback. 
