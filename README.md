@@ -12,6 +12,8 @@ These are in line with the latest 2024-11-20 Loadout changes regarding the medic
 - Automated replacement of medical items (e.g., saline to plasma).
 - Modification of medical supply quantities: 20 Basic bandages -> 10 Basic bandages & 10 packing bandages
 
+[Demo video](https://youtu.be/ZadszQcT48A): 
+
 ## Getting Started
 
 This script clicks on certain parts of your screen and presses keys (ESC, Down Arrow, Enter) in order to:
@@ -47,7 +49,7 @@ After the download follow these instructions:
 8. ALT+TAB back to Arma3, you have 10 seconds before clicking starts.
 9. Let the script run, do not touch anything. 
 10. By default it will check 100 ACE loadouts and 300 Vanilla arsenals.
-11. If you have less or want to stop to check if everything is fine press BACKSPACE. This will stop the script. (If that does not work try to close the command window, bit difficult with all the clicking.) If you restart the script it will start from the beginning. 
+11. BACKSPACE to STOP. If you have less or want to stop to check if everything is fine press BACKSPACE. This will stop the script. (If that does not work try to close the command window, bit difficult with all the clicking.) If you restart the script it will start from the beginning. 
 12. Success! You should have plasma instead of saline and 10x Packing bandage and 10x Basic bandage instead of 20x Basic bandage. 
 13. You have to manually modify your Medic loadouts to add the new equipment and remove extra Packing bandages.
 
@@ -62,6 +64,9 @@ I encourage you to check the corresponding .py scripts before you run executable
 3. **Instead of Step 7, run one of the scripts**:
    - `automaticACE_simple.py`
    - `automaticVanilla_simple.py`
+
+The not so simple versions of the script allow for user input to decide where to start and end the loadout changes. 
+Since the script does not do any changes if you run it over unrelated loadouts it's easier to run it on all your loadouts.
 
 ## Contact
 
